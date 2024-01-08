@@ -1,0 +1,321 @@
+body{
+        font-family: 'Poppins', sans-serif;
+}
+section{
+        margin-top: 50px;
+        margin-left: 140px;
+        margin-right: 140px;
+}
+.Top-banner{
+        background-image: url(imgs/Banner\ Image.png);
+        background-repeat: no-repeat;
+        height: 600px;
+        width: 1320px; 
+        text-align: center;  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+}
+.Top-banner h1{
+        color: #FFFFFF;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+}
+.Top-banner h2{
+        color: azure;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+}
+.title{
+        text-align: center;
+}
+.title h2{
+        color: #F00;
+        font-size: 88px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        line-height: 20px;
+}
+.title h1{
+        color: #070211;
+        text-align: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px;
+}
+.title-part{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.title h3{
+        color: #F00;
+        text-align: center;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 20px;
+}
+.title-part img{
+        width: 800px;
+        height: 500px;
+}
+.midnight-part{
+        background-image: url(imgs/Vectorrr.png);
+        background-repeat: no-repeat;
+        width: 1320px;
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.midnight-tittle{
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+}
+.midnight-tittle h1{
+        width: 640px;
+        color: #FFF;
+        font-size: 65px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 68px;
+        letter-spacing: 7px;
+}
+.midnight-tittle p{
+        width: 690px;
+}
+.midnight-tittle a{
+        text-decoration: none;
+        color: #FFF;
+        font-size: 20px;
+}
+.midnight-img{
+        width: 315px;
+        height: 4602px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;      
+}
+.Date{
+        
+        text-align: center;
+        border: 0px solid black;
+        background-color: rgb(249, 234, 237);
+        border-radius: 15px;
+        padding: 90px;
+        margin-top:100px;
+        
+        
+}
+.Date strong{
+        color: #F00;
+}
+.Date h1{
+        color: #070211;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 35px;
+       
+}
+.Date button{
+        padding: 10px 30px 10px 30px;
+        color: #f4e0e0;
+        background-color: #F00;
+        border: 0px;
+        border-radius: 5px;
+        
+}
+.discount img{
+        width: 1320px;
+        border: 0px;
+        border-radius: 20px;
+}
+.OFFER-mix{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 0px solid black;
+        
+        
+}
+.OFFER-mix h3{
+        color: #F00;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        line-height: 10px;
+}
+.OFFER-mix h1{
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 10px;
+}
+.OFFER-title{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+.OFFER-mix img{
+        height: 420px;
+        width: 420px;
+        margin-left: auto;
+        border: 10px solid red;
+        padding: 15px;
+        border-radius: 250px;
+}
+.Happy{
+        width: 200px;
+}
+.Happy h1{
+        color: #F00;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal
+}
+.Happy img{
+        width: 140px;
+        height: 140px;
+}
+.card-title h2{
+        color: #F00;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 10px;
+}
+.card-title h1{
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 10px;   
+}
+.card-title p{
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        width: 890px;
+}
+.card{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 20px;
+        column-gap: 10px;
+}
+.card img{
+        border: 0px solid black;
+        border-radius: 20px;       
+}
+.card img:hover{
+        border: 1px solid rgb(112, 106, 106) ;
+        border-radius: 20px;
+        position: absolute;
+}
+.form{
+       
+        padding: 2%;
+        display: flex;
+        justify-content: center;
+        border: 0px;
+}
+.form input{
+        padding:10px ;
+        width: 250px;
+}
+button{
+        width: 150px;
+        background-color: #F00;
+        color: #FFF;
+        border: 0px;
+        padding: 10px;
+        border-radius: 0px 50px 50px 0px;
+}
+.form-part{
+        border: 0px solid black;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1%;
+        background-color: rgb(231, 198, 204);
+        
+}
+
+.form-title h1{
+        color: #070211;
+        text-align: center;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+}
+.form-title p{
+        text-align: center;      
+}
+.footer{
+        border: 1px solid black;
+        
+        background-color: #070211;
+       
+}
+.footer-top{
+        padding: 2%;
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-around;
+}
+hr{
+        width: 1000px;
+        display: flex;
+        justify-content: center;
+}
+.footer-medium{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+}
+.footer-medium div{
+        margin: 1%;
+}
+footer{
+        margin-top: 5%;
+}
+.footer-bottom{
+        color: #FFFFFF;
+        display: flex;
+        justify-content: space-around;
+}
+.footer-bottom a{
+        text-decoration: none;
+        color: #FFFFFF;
+}
