@@ -233,9 +233,8 @@ section{
         border-radius: 20px;       
 }
 .card img:hover{
-        border: 1px solid rgb(112, 106, 106) ;
+        border: 2px solid rgb(112, 106, 106) ;
         border-radius: 20px;
-        position: absolute;
 }
 .form{
        
