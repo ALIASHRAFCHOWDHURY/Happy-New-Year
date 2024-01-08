@@ -140,6 +140,31 @@ section{
         border-radius: 5px;
         
 }
+.Holiday-part{
+        text-align: center;
+}
+.Holiday-part h3{
+        color: #070211;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+}
+.Holiday-part strong{
+        color: #F00;
+        text-align: center;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 20px;
+}
+.Holiday-part h1{
+        color: #070211;
+        font-size: 52px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 20px;
+}
 .discount img{
         width: 1320px;
         border: 0px;
